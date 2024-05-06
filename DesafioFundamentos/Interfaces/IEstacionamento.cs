@@ -12,5 +12,7 @@ namespace DesafioFundamentos.Interfaces
         public void RemoverVeiculo();
 
         public void ListarVeiculos();
+
+        public decimal ProcessarPagamento(decimal precoInicial, decimal precoPorHora);
     }
 }
